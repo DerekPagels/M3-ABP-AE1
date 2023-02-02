@@ -1,3 +1,7 @@
 .tarjetaregion {
-    display: none;
+    display: hidden;
+}
+
+#mapachilediv img {
+    width: 50%;
 }
