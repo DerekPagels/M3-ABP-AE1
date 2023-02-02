@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chile y sus regiones</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container row">
+      <!-- Mapa de Chile -->
+      <div class="col" id="mapachilediv">
+        <img src="img/mapachile.svg" alt="Mapa de Chile" usemap="#chile" />
+      </div>
+      <!-- Mapa de coordenadas para mapa de chile -->
+      <area shape="square" coords="" href="#tarjetaregion" alt="Región de 1" />
+      <div class="col">
+        <!-- Tarjeta de datos de 1era region -->
+        <div class="card tarjetaregion" id="tarjetaregion1">
+          <img
+            src="img/banderas/arica.svg"
+            class="card-img-top"
+            alt="Bandera de Arica y Parinacota"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Región de Arica y Parinacota</h5>
+            <h6 class="card-subtitle mb-2 text-muted">I Región</h6>
+            <p class="card-text">Descripción breve sobre la región.</p>
+            <ul class="list-group">
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Tamaño
+                <span class="badge bg-primary rounded-pill"
+                  >16.873,3 Km&sup2;</span
+                >
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Habitantes
+                <span class="badge bg-primary rounded-pill">226.068</span>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Capital
+                <span class="badge bg-primary rounded-pill">Arica</span>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Comunas
+                <span class="badge bg-primary rounded-pill">Arica</span>
+                <span class="badge bg-primary rounded-pill">Camarones</span>
+                <span class="badge bg-primary rounded-pill">General Lagos</span>
+                <span class="badge bg-primary rounded-pill">Putre</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Tarjeta de datos de 2da region -->
+        <div class="card tarjetaregion" id="tarjetaregion2">
+          <img
+            src="img/banderas/tarapaca.svg"
+            class="card-img-top"
+            alt="Bandera de Tarapacá"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Región de Tarapacá</h5>
+            <h6 class="card-subtitle mb-2 text-muted">II Región</h6>
+            <p class="card-text">Descripción breve sobre la región.</p>
+            <ul class="list-group">
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Tamaño
+                <span class="badge bg-primary rounded-pill"
+                  >42.225,8 Km&sup2;</span
+                >
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Habitantes
+                <span class="badge bg-primary rounded-pill">330.508</span>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Capital
+                <span class="badge bg-primary rounded-pill">Iquique</span>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Comunas
+                <span class="badge bg-primary rounded-pill">Alto Hospicio</span>
+                <span class="badge bg-primary rounded-pill">Iquique</span>
+                <span class="badge bg-primary rounded-pill">Camiña</span>
+                <span class="badge bg-primary rounded-pill">Colchane</span>
+                <span class="badge bg-primary rounded-pill">Huara</span>
+                <span class="badge bg-primary rounded-pill">Pica</span>
+                <span class="badge bg-primary rounded-pill">Pozo Almonte</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Tarjeta de datos de 3ra region -->
+        <div class="card tarjetaregion" id="tarjetaregion3">
+          <img
+            src="img/banderas/antofagasta.svg"
+            class="card-img-top"
+            alt="Bandera de Antofagasta"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Región de Antofagasta</h5>
+            <h6 class="card-subtitle mb-2 text-muted">III Región</h6>
+            <p class="card-text">Descripción breve sobre la región.</p>
+            <ul class="list-group">
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Tamaño
+                <span class="badge bg-primary rounded-pill"
+                  >126.049,1 Km&sup2;</span
+                >
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Habitantes
+                <span class="badge bg-primary rounded-pill">607.534</span>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Capital
+                <span class="badge bg-primary rounded-pill">Antofagasta</span>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Comunas
+                <span class="badge bg-primary rounded-pill">Antofagasta</span>
+                <span class="badge bg-primary rounded-pill">Mejillones</span>
+                <span class="badge bg-primary rounded-pill">Sierra Gorda</span>
+                <span class="badge bg-primary rounded-pill">Taltal</span>
+                <span class="badge bg-primary rounded-pill">Calama</span>
+                <span class="badge bg-primary rounded-pill">Ollagüe</span>
+                <span class="badge bg-primary rounded-pill"
+                  >San Pedro de Atacama</span
+                >
+                <span class="badge bg-primary rounded-pill">María Elena</span>
+                <span class="badge bg-primary rounded-pill">Tocopilla</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Tarjeta de datos de 4ta region -->
+        <div class="card tarjetaregion" id="tarjetaregion4">
+          <img
+            src="img/banderas/atacama.svg"
+            class="card-img-top"
+            alt="Bandera de Atacama"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Región de Atacama</h5>
+            <h6 class="card-subtitle mb-2 text-muted">IV Región</h6>
+            <p class="card-text">Descripción breve sobre la región.</p>
+            <ul class="list-group">
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Tamaño
+                <span class="badge bg-primary rounded-pill"
+                  >75.176,2 Km&sup2;</span
+                >
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Habitantes
+                <span class="badge bg-primary rounded-pill">286.168</span>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Capital
+                <span class="badge bg-primary rounded-pill">Copiapó</span>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Comunas
+                <span class="badge bg-primary rounded-pill">Chañaral</span>
+                <span class="badge bg-primary rounded-pill"
+                  >Diego de Almagro</span
+                >
+                <span class="badge bg-primary rounded-pill">Caldera</span>
+                <span class="badge bg-primary rounded-pill">Copiapó</span>
+                <span class="badge bg-primary rounded-pill"
+                  >Tierra Amarilla</span
+                >
+                <span class="badge bg-primary rounded-pill"
+                  >Alto del Carmen</span
+                >
+                <span class="badge bg-primary rounded-pill">Freirina</span>
+                <span class="badge bg-primary rounded-pill">Huasco</span>
+                <span class="badge bg-primary rounded-pill">Vallenar</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Tarjeta de datos de 5ta region -->
+        <div class="card tarjetaregion" id="tarjetaregion5">
+          <img
+            src="img/banderas/valparaiso.svg"
+            class="card-img-top"
+            alt="Bandera de Valparaíso"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Región de Valparaíso</h5>
+            <h6 class="card-subtitle mb-2 text-muted">V Región</h6>
+            <p class="card-text">Descripción breve sobre la región.</p>
+            <ul class="list-group">
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Tamaño
+                <span class="badge bg-primary rounded-pill"
+                  >16.396,1 Km&sup2;</span
+                >
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Habitantes
+                <span class="badge bg-primary rounded-pill">1.815.902</span>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Capital
+                <span class="badge bg-primary rounded-pill">Valparaíso</span>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Provincias
+                <span class="badge bg-primary rounded-pill"
+                  >Isla de Pascua</span
+                >
+                <span class="badge bg-primary rounded-pill">Los Andes</span>
+                <span class="badge bg-primary rounded-pill">Petorca</span>
+                <span class="badge bg-primary rounded-pill">Quillota</span>
+                <span class="badge bg-primary rounded-pill">San Antonio</span>
+                <span class="badge bg-primary rounded-pill"
+                  >San Felipe de Aconcagua</span
+                >
+                <span class="badge bg-primary rounded-pill">Valparaíso</span>
+                <span class="badge bg-primary rounded-pill">Marga Marga</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="mapa.js"></script>
+  </body>
+</html>
